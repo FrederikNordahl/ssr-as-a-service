@@ -1,0 +1,19 @@
+{
+  "name": "ssr",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Tester lige ssr med puppeteer",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "prettier": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "puppeteer": "^8.0.0"
+  }
+}
